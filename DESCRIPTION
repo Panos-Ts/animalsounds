@@ -13,22 +13,9 @@ RoxygenNote: 7.3.1
 URL: https://github.com/Panos-Ts/animalsounds
 BugReports: https://github.com/Panos-Ts/animalsounds/issues
 Imports: 
+    cli,
+    purrr,
     rlang
-    
-    new_function <- function(x, y, z) {
-  w <- pkgname1::imported_function(x, y)
-  pkgname2::imported_function(w, z)
-}
-
 Suggests: 
-    pkgname
-    
-    if (!requireNamespace("pkgname", quietly = TRUE)){
-  warning("pkgname must be installed to perform this function",
-          "returning NULL")
-  return(NULL)
-}
-
-usethis::use_package("rlang")
-usethis::use_package("glue", type = "Suggests")
-use_package()
+    glue,
+    magrittr
