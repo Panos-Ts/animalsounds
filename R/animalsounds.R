@@ -13,18 +13,21 @@
 #' animalsounds("dog", "woof")
 #' "The dog says woof!"
 #'
+#' [paste0()]
+#' [basemodels::dummy_classifier()]
+#'
 animal_sounds <- function(animal, sound) {
   stopifnot(is.character(animal) & length(animal) == 1)
   stopifnot(is.character(sound) & length(sound) == 1)
   paste0("The ", animal, " says ", sound, "!")
 
-  sound <- c("woof", "bark")
-  if (!rlang::is_character(sound, n = 1)) {
-    cli::cli_abort(
-      c("{.var animal} must be a single string!",
-        "i" = "It was {.type {animal}} of length {length(animal)} instead.")
-    )
-  }
+  # sound <- c("woof", "bark")
+  # if (!rlang::is_character(sound, n = 1)) {
+  # cli::cli_abort(
+  #  c("{.var animal} must be a single string!",
+  #     "i" = "It was {.type {animal}} of length {length(animal)} instead.")
+  # )
+  # }
 }
 
 #' @importFrom purrr keep modify

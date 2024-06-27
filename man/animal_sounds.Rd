@@ -22,4 +22,7 @@ animal sounds like
 animalsounds("dog", "woof")
 "The dog says woof!"
 
+[paste0()]
+[basemodels::dummy_classifier()]
+
 }

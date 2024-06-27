@@ -1,0 +1,29 @@
+---
+title: "An intro to animal sounds"
+author: "Panos Tsapras"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{An intro to animal sounds}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(animalsounds)
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(animalsounds)
+## basic example code
+animal_sounds("dog", "woof")

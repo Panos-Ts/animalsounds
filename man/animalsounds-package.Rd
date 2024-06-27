@@ -4,20 +4,21 @@
 \name{animalsounds-package}
 \alias{animalsounds}
 \alias{animalsounds-package}
-\title{animalsounds: What the Package Does (One Line, Title Case)}
+\title{animalsounds: Links Animals to their Sounds}
 \description{
-What the package does (one paragraph).
+Connects animals with their sounds.
 }
 \seealso{
 Useful links:
 \itemize{
   \item \url{https://github.com/Panos-Ts/animalsounds}
+  \item \url{https://panos-ts.github.io/animalsounds/}
   \item Report bugs at \url{https://github.com/Panos-Ts/animalsounds/issues}
 }
 
 }
 \author{
-\strong{Maintainer}: First Last \email{first.last@example.com} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})
+\strong{Maintainer}: Panos Tsapras \email{first.last@example.com} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})
 
 }
 \keyword{internal}
